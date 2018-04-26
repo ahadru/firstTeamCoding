@@ -8,7 +8,7 @@ public:
         result=a+b;
         return result;
     }
-    void result(){
+    void out(){
         cout<<result<<endl;
     }
 
@@ -17,7 +17,7 @@ public:
 int main(){
     calc teamCalc;
     teamCalc.add(3,5);
-    teamCalc.result();
+    teamCalc.out();
     return 0;
 }
 
