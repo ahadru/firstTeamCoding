@@ -2,9 +2,13 @@
 using namespace std;
 
 class calc{
-    double result
+    double result;
 public:
-    
+    double add(double a, double b){
+        result=a+b;
+        return result;
+    }
+
 };
 
 int main(){
