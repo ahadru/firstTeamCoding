@@ -8,11 +8,16 @@ public:
         result=a+b;
         return result;
     }
+    void result(){
+        cout<<result<<endl;
+    }
 
 };
 
 int main(){
     calc teamCalc;
+    teamCalc.add(3,5);
+    teamCalc.result();
     return 0;
 }
 
